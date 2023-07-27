@@ -6,8 +6,8 @@ class Solution:
         for det in details:
             detail = det[10:13]
             new_list.append(detail)
+            
         number_list = []
-        
         for new in new_list:
             num = new[1:]
             number_list.append(num)
