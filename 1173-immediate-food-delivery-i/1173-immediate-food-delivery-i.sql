@@ -7,7 +7,7 @@ AS
         CASE 
             WHEN order_date = customer_pref_delivery_date THEN 'immediate'
             ELSE 'scheduled' 
-            END AS preference_order
+        END AS preference_order
     FROM Delivery
     GROUP BY delivery_id),
 
