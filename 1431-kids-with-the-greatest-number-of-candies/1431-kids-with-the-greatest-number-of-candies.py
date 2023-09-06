@@ -1,7 +1,6 @@
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
-        self.candies = candies
-        self.extraCandies = extraCandies
+        
         new_candies = []
         maximum_candies = max(candies)
         output = []
